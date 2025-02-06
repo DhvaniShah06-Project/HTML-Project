@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="Style.CSS">
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="file:///D:/HTML%20Project/IndexCSS.html" target="self">Home</a></li>
-            <li><a href="file:///D:/HTML%20Project/CultureCSS.html" target="_self">Culture</a></li>
-            <li><a href="file:///D:/HTML%20Project/LandmarkCSS.html" target="_self">Landmarks</a></li>
-            <li><a href="file:///D:/HTML%20Project/CuisineCSS.html" target="_self">Cuisine</a></li>
-            <li><a href="file:///D:/HTML%20Project/ContactCSS.html" target="_self">Contact</a></li>
+<body id="Contact">
+    <div class="Navigation">
+        <ul style="color: darkgreen;">
+            <li><a href="file:///D:/HTML%20Project/IndexCSS.html" target="self" style="text-decoration: none; color: darkgreen;">Home</a></li>
+            <li><a href="file:///D:/HTML%20Project/CultureCSS.html" target="_self" style="text-decoration: none; color: darkgreen;">Culture</a></li>
+            <li><a href="file:///D:/HTML%20Project/LandmarkCSS.html" target="_self" style="text-decoration: none; color: darkgreen;">Landmarks</a></li>
+            <li><a href="file:///D:/HTML%20Project/CuisineCSS.html" target="_self" style="text-decoration: none; color: darkgreen;">Cuisine</a></li>
+            <li><a href="file:///D:/HTML%20Project/ContactCSS.html" target="_self" style="text-decoration: none; color: darkgreen;">Contact</a></li>
         </ul>
-    </nav>
+    </div>
     <div class="form">
     <h1>Contact Us</h1>
     Please fill out the form below for any inquiries or to register as a student.
@@ -24,7 +25,7 @@
                 <label for="uname">First Name:</label>
                 <input type="text" id="First-Name" placeholder="Enter your First Name" ><br><br>
                 <label for="Password">Password</label>
-                <input type="text" id="password"><br><br>
+                <input type="password" id="password"><br><br>
                 <label for="Gender">Gender:</label>
                 <input type="radio" name="Gender" value="Male">Male
                 <input type="radio" name="Gender" value="Female">Female<br><br>
@@ -41,7 +42,7 @@
                 <input type="file" id="file">
                 <br><br>
                 <label for="Address">Address</label>
-                <input type="textarea" id="Address"><br><br>
+               <textarea></textarea><br><br>
                 <label for="Date">Date Of Birth:</label>
                 <input type="date" id="date">
                 <br><br>

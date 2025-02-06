@@ -1,9 +1,131 @@
+/* Common */
 .footer{
-    font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
     word-spacing: 2px;
-    color: cornflowerblue;
-    background-color: cyan;
-    height : 250px;
-    border: 2px solid black;
+    color:  white;
+    background-color:darkblue;
+    margin-top: 20px;
     }
+    .footer a{
+        color:  white;
+        font-size: large;
+    }
+
+    
+    #Index{
+        background-image: url(https://walker-web.imgix.net/cms/Gradient_builder_2.jpg?auto=format,compress&w=1920&h=1200&fit=crop&dpr=1.5);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .nav{
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+    }
+   
+    .heading{
+        color: blue ;
+        background-color: bisque;
+    }
+    .content{
+        background-color: darkolivegreen;
+        color: azure;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .about-culture{
+        color: wheat;
+        background-color: brown;
+        font-size: large;      
+    }
+    .Cuisine{
+        color: rgba(246, 68, 18, 0.921);
+        background-color: rgb(153, 224, 237);
+        font-size: large;
+    }
+
+
+   #Culture{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/046/538/147/small_2x/indian-flag-tricolour-three-colour-gradient-wallpaper-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: larger;
+   }
+    .Festival{
+        color: chartreuse;
+        margin-top: 20px;
+        background-color: blueviolet;
+    }
+    .language{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/012/769/603/non_2x/cadet-blue-gradient-color-thumbnail-web-banner-creative-template-background-vector.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: crimson;
+    }
+    .table{
+        background-color: cadetblue;
+        color: crimson;
+    }
+    .Attire{
+        margin-top: 20px;
+        background-color: rgba(250, 250, 112, 0.618);
+        color: red;
+    }
+
+
+    #Landmark{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        margin-left: 35px;
+        margin-right: 35px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLoaASWzTk09LFdXuzCyo0c_753c0y0RUamw&s);
+    }
+    .Head{
+        color: orange ;
+    }
+    .Places{
+        color: rgb(111, 10, 10);
+    }
+    .TABLE{
+        color: rgb(243, 221, 26);     
+    }
+    .end{
+        color: white;
+    }
+
+
+   #Cuisine{
+    margin-left: 35px;
+    margin-right: 35px;
+    background-image: url(https://c8.alamy.com/comp/2A82XCT/bistro-burger-shop-fast-food-stall-gradient-line-icon-illustration-symbol-or-pictogram-sign-dark-blue-background-related-bottom-border-2A82XCT.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .Dishes{
+    color: chartreuse;
+   }
+   .South{
+    color: rgb(247, 247, 34);
+   }
+   .sweets{
+    color: rgb(241, 172, 230);
+   }
+
+
+   #Contact{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://media.gettyimages.com/id/1840373106/vector/say-thank-you-with-hands.jpg?s=612x612&w=gi&k=20&c=Lywfkj2zPNLCYxKp-rxbsR4okyNzQ0WFxjN565N6XQE=);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   .form{
+    color: brown;
+   }
+   
