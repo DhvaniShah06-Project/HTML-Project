@@ -21,6 +21,11 @@
     .nav{
         font-size: large;
         font-family: 'Times New Roman', Times, serif;
+        /* position: fixed; */
+        height: 20px;
+        width: 450px;
+        word-spacing: 30px;
+        margin-left: 890px;
     }
    
     .heading{
@@ -43,6 +48,12 @@
         background-color: rgb(153, 224, 237);
         font-size: large;
     }
+    .navig{
+        height: 20px;
+        width: 450px;
+        word-spacing: 30px;
+        margin-left: 890px;
+    }
 
 
    #Culture{
@@ -55,6 +66,12 @@
     margin-top: 20px;
     font-size: larger;
    }
+   .navi{
+   height: 20px;
+   width: 450px;
+   word-spacing: 30px;
+   margin-left: 890px;
+}
     .Festival{
         color: chartreuse;
         margin-top: 20px;
@@ -85,6 +102,12 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLoaASWzTk09LFdXuzCyo0c_753c0y0RUamw&s);
+    }
+    .NAV{
+        height: 20px;
+        width: 450px;
+        word-spacing: 10px;
+        margin-left: 890px;
     }
     .Head{
         color: orange ;
@@ -124,6 +147,12 @@
     background-image: url(https://media.gettyimages.com/id/1840373106/vector/say-thank-you-with-hands.jpg?s=612x612&w=gi&k=20&c=Lywfkj2zPNLCYxKp-rxbsR4okyNzQ0WFxjN565N6XQE=);
     background-size: cover;
     background-repeat: no-repeat;
+   }
+   .Navigation{
+    height: 20px;
+    width: 450px;
+    word-spacing: 10px;
+    margin-left: 890px;
    }
    .form{
     color: brown;
