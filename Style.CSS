@@ -18,7 +18,7 @@
     background-size: cover;
     font-size: larger;
     font-family: cursive;
-    margin: 10px;
+    margin: 20px;
 }
 @media screen and (max-width : 600px){
     .nav{
@@ -32,10 +32,10 @@
     font-size: large;
     font-family: cursive;
     /* position: fixed; */
-    height: 20px;
-    width: 450px;
-    word-spacing: 20px;
+    width: 120px;
    float: right;
+   border: 2px solid pink;
+
     
 }
 
@@ -77,6 +77,12 @@
    .navi{
     left: 0px;
    }
+   #Culture{
+    background-image: linear-gradient(yellow,green);
+   }
+   .Attire{
+    margin-top: 45px;
+   }
    
 }
 
@@ -106,7 +112,7 @@
 }
 
 .Attire {
-    margin-top: 20px;
+    margin-top: 75px;
     background-color: rgba(250, 250, 112, 0.618);
     color: red;
 }
@@ -126,6 +132,9 @@
 @media screen and (max-width : 600px){
     .NAV{
      left : 0px;
+    }
+    #Landmark{
+        background-image: linear-gradient(blue,red);
     }
     
  }
@@ -154,7 +163,7 @@
 }
 
 
-#Cuisine {
+.Cuisine {
     margin: 10px;
     background-image: url(https://c8.alamy.com/comp/2A82XCT/bistro-burger-shop-fast-food-stall-gradient-line-icon-illustration-symbol-or-pictogram-sign-dark-blue-background-related-bottom-border-2A82XCT.jpg);
     background-repeat: no-repeat;
@@ -165,18 +174,21 @@
      border-radius: 25px; 
      font-size: large;
      float: right;
+     border: 2px solid;
      height: 25px;
      width: 450px;
      word-spacing: 20px;
 }
-.navig{
-    float: right;
-}
-@media screen and(max-width : 600px){
+
+@media screen and (max-width : 600px){
     .navig{
-        left : 0px;
+        float: left;
+    }
+    .Cuisine{
+        background-image: linear-gradient(red,blue);
     }
 }
+
 
 .Dishes {
     color: chartreuse;
@@ -201,6 +213,12 @@
 @media screen and (max-width : 600px){
     .Navigation{
      left : 0px;
+    }
+    #Contact{
+        background-image: red;
+    }
+    .form{
+        background-color: yellow;
     }
     
  }
