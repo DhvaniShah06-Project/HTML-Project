@@ -19,6 +19,14 @@
     font-size: larger;
     font-family: cursive;
     margin: 20px;
+    animation: transform;
+}
+img:hover{
+    scale: 1.2;
+
+}
+img{
+  margin-left: 275px;
 }
 @media screen and (max-width : 600px){
     .nav{
@@ -35,14 +43,15 @@
     width: 120px;
    float: right;
    border: 2px solid pink;
-
-    
 }
-
 .heading {
     color: blue;
     background-color: bisque;
+   
 }
+ 
+
+
 
 .content {
     background-color: darkolivegreen;
@@ -88,7 +97,7 @@
 
 .navi {
     height: 20px;
-    width: 450px;
+    width: 120px;
     word-spacing: 30px;
     float: right;
 }
@@ -141,7 +150,7 @@
 
 .NAV {
     height: 25px;
-    width: 450px;
+    width: 120px;
     word-spacing: 20px;
     float: right;
 }
@@ -168,16 +177,14 @@
     background-image: url(https://c8.alamy.com/comp/2A82XCT/bistro-burger-shop-fast-food-stall-gradient-line-icon-illustration-symbol-or-pictogram-sign-dark-blue-background-related-bottom-border-2A82XCT.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 2;
 }
-.navig ul {
-    background-color: rgb(186, 72, 91);
-     border-radius: 25px; 
+.navig  {
      font-size: large;
-     float: right;
      border: 2px solid;
-     height: 25px;
-     width: 450px;
-     word-spacing: 20px;
+   float: right;
+     width: 120px;
+ 
 }
 
 @media screen and (max-width : 600px){
@@ -225,7 +232,7 @@
 
 .Navigation {
     height: 20px;
-    width: 450px;
+    width: 120px;
     word-spacing: 10px;
     float: right;
 }
