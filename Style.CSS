@@ -21,18 +21,21 @@
     margin: 20px;
     animation: transform;
 }
-img:hover{
+
+img:hover {
     scale: 1.2;
 
 }
-img{
-  margin-left: 275px;
+
+img {
+    margin-left: 275px;
 }
-@media screen and (max-width : 600px){
-    .nav{
-       
-       left: 0px;
-       
+
+@media screen and (max-width : 600px) {
+    .nav {
+
+        left: 0px;
+
     }
 }
 
@@ -41,15 +44,16 @@ img{
     font-family: cursive;
     /* position: fixed; */
     width: 120px;
-   float: right;
-   border: 2px solid pink;
+    float: right;
+    border: 2px solid pink;
 }
+
 .heading {
     color: blue;
     background-color: bisque;
-   
+
 }
- 
+
 
 
 
@@ -82,17 +86,20 @@ img{
     font-family: cursive;
     font-size: larger;
 }
-@media screen and (max-width : 600px){
-   .navi{
-    left: 0px;
-   }
-   #Culture{
-    background-image: linear-gradient(yellow,green);
-   }
-   .Attire{
-    margin-top: 45px;
-   }
-   
+
+@media screen and (max-width : 600px) {
+    .navi {
+        left: 0px;
+    }
+
+    #Culture {
+        background-image: linear-gradient(yellow, green);
+    }
+
+    .Attire {
+        margin-top: 45px;
+    }
+
 }
 
 .navi {
@@ -138,15 +145,17 @@ img{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLoaASWzTk09LFdXuzCyo0c_753c0y0RUamw&s);
 
 }
-@media screen and (max-width : 600px){
-    .NAV{
-     left : 0px;
+
+@media screen and (max-width : 600px) {
+    .NAV {
+        left: 0px;
     }
-    #Landmark{
-        background-image: linear-gradient(blue,red);
+
+    #Landmark {
+        background-image: linear-gradient(blue, red);
     }
-    
- }
+
+}
 
 .NAV {
     height: 25px;
@@ -179,20 +188,22 @@ img{
     background-size: cover;
     z-index: 2;
 }
-.navig  {
-     font-size: large;
-     border: 2px solid;
-   float: right;
-     width: 120px;
- 
+
+.navig {
+    font-size: large;
+    border: 2px solid;
+    float: right;
+    width: 120px;
+
 }
 
-@media screen and (max-width : 600px){
-    .navig{
+@media screen and (max-width : 600px) {
+    .navig {
         float: left;
     }
-    .Cuisine{
-        background-image: linear-gradient(red,blue);
+
+    .Cuisine {
+        background-image: linear-gradient(red, blue);
     }
 }
 
@@ -217,18 +228,21 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
 }
-@media screen and (max-width : 600px){
-    .Navigation{
-     left : 0px;
+
+@media screen and (max-width : 600px) {
+    .Navigation {
+        left: 0px;
     }
-    #Contact{
+
+    #Contact {
         background-image: red;
     }
-    .form{
+
+    .form {
         background-color: yellow;
     }
-    
- }
+
+}
 
 .Navigation {
     height: 20px;
